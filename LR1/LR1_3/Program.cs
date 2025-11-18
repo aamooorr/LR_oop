@@ -93,6 +93,11 @@ namespace LR1_3
                         i++;
                     } while (i <= N);
                 }
+                
+                else
+                {
+                    Z = 0;
+                }
 
                 Console.WriteLine(string.Format("{0:0.0000000}", Z));
             }
@@ -101,4 +106,5 @@ namespace LR1_3
             Console.SetIn(save_in);
         }
     }
+
 }
